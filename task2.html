@@ -1,0 +1,18 @@
+<!-- TASK NO_2 : 
+NAME: SHANTANA MIRDHA -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    const endpoint = 'https://gorest.co.in/public/v1/users';
+    async function getapi() {
+        const response = await fetch(endpoint);
+        const data = await response.json();
+        console.log(data);
+    }
+    getapi();
+</script>
+</body>
+</html>
